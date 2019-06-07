@@ -105,6 +105,18 @@
     "exsyst/swagger": {
         "version": "v0.4.1"
     },
+    "friendsofsymfony/rest-bundle": {
+        "version": "2.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "2.2",
+            "ref": "258300d52be6ad59b32a888d5ddafbf9638540ff"
+        },
+        "files": [
+            "./config/packages/fos_rest.yaml"
+        ]
+    },
     "guzzlehttp/guzzle": {
         "version": "6.3.3"
     },
@@ -474,6 +486,9 @@
             "./config/packages/test/swiftmailer.yaml"
         ]
     },
+    "symfony/templating": {
+        "version": "v4.2.9"
+    },
     "symfony/translation": {
         "version": "3.3",
         "recipe": {
@@ -544,6 +559,12 @@
     },
     "webmozart/assert": {
         "version": "1.4.0"
+    },
+    "willdurand/jsonp-callback-validator": {
+        "version": "v1.1.0"
+    },
+    "willdurand/negotiation": {
+        "version": "v2.3.1"
     },
     "zendframework/zend-code": {
         "version": "3.3.1"
