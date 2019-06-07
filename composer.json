@@ -25,6 +25,7 @@
         "symfony/security-bundle": "4.2.*",
         "symfony/swiftmailer-bundle": "^3.2",
         "symfony/translation": "4.2.*",
+        "symfony/validator": "4.2.*",
         "symfony/yaml": "4.2.*",
         "twig/twig": "^2.6",
         "wa72/jsonrpc-bundle": "^0.6.2"
