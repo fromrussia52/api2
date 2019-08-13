@@ -1,0 +1,35 @@
+{
+    "name": "dantleech/glob-finder",
+    "description": "Library offering object location from hierarchrical persistent storage systems using globs",
+    "homepage": "http://www.github.com/dantleech/glob",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Leech",
+            "email": "daniel@dantleech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "require-dev": {
+        "doctrine/phpcr-odm": "~1.2",
+        "doctrine/phpcr-bundle": "~1.2",
+        "jackalope/jackalope-fs": "dev-master",
+        "phpunit/phpunit": "~4.5"
+    },
+    "suggest": {
+        "doctrine/phpcr-odm": "To enable support for the PHPCR ODM documents",
+        "doctrine/phpcr-bundle": "To enable support for the PHPCR ODM documents"
+    },
+    "autoload": {
+        "psr-4": {
+            "DTL\\Glob\\": "lib/DTL/Glob"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DTL\\Glob\\Tests\\": "tests"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "scaytrase/rpc-common",
+  "description": "Common RPC interfaces",
+  "authors": [
+    {
+      "name": "Pavel Batanov",
+      "email": "pavel@batanov.me"
+    }
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~5.5|~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8.35 | ^5.1 | ^6.0",
+    "psr/cache": "~1.0",
+    "psr/log": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ScayTrase\\Api\\Rpc\\": "./"
+    }
+  },
+  "suggest": {
+    "psr/cache": "For CacheableRpcClient decorator",
+    "psr/log": "For LoggableRpcClient decorator"
+  }
+}

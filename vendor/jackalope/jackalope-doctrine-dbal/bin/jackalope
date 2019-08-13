@@ -1,0 +1,69 @@
+#!/usr/bin/env php
+<?php
+
+use Jackalope\Tools\Console\Command\InitDoctrineDbalCommand;
+use PHPCR\Util\Console\Command;
+use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Helper\HelperSet;
+
+($autoload = @include_once __DIR__ . '/../vendor/autoload.php') || $autoload = @include_once __DIR__ . '/../../../autoload.php';
+if (!$autoload) {
+    die('You must set up the project dependencies, run the following commands:'.PHP_EOL.
+        'curl -s http://getcomposer.org/installer | php'.PHP_EOL.
+        'php composer.phar install'.PHP_EOL);
+}
+
+$configFile = getcwd() . DIRECTORY_SEPARATOR . 'cli-config.php';
+
+$helperSet = null;
+
+if (file_exists($configFile)) {
+    if (!is_readable($configFile)) {
+        trigger_error(
+            "Configuration file [$configFile] does not have read permission.", E_USER_ERROR
+        );
+    }
+
+    require $configFile;
+
+    foreach ($GLOBALS as $helperSetCandidate) {
+        if ($helperSetCandidate instanceof HelperSet) {
+            $helperSet = $helperSetCandidate;
+            break;
+        }
+    }
+} else {
+    trigger_error(
+        "Configuration file [$configFile] does not exist. Please check the README.md file.", E_USER_ERROR
+    );
+}
+
+$helperSet = $helperSet ?: new HelperSet();
+
+$cli = new Application('Jackalope Command Line Interface', '0.1');
+
+$cli->setCatchExceptions(true);
+$cli->setHelperSet($helperSet);
+
+$cli->addCommands(array(
+    new Command\NodeDumpCommand(),
+    new Command\NodeMoveCommand(),
+    new Command\NodeRemoveCommand(),
+    new Command\NodeTouchCommand(),
+
+    new Command\NodeTypeListCommand(),
+    new Command\NodeTypeRegisterCommand(),
+
+    new Command\WorkspaceCreateCommand(),
+    new Command\WorkspaceDeleteCommand(),
+    new Command\WorkspaceExportCommand(),
+    new Command\WorkspaceImportCommand(),
+    new Command\WorkspaceListCommand(),
+    new Command\WorkspacePurgeCommand(),
+    new Command\WorkspaceQueryCommand(),
+
+    new InitDoctrineDbalCommand(),
+));
+
+$cli->run();
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    colors="true"
+    bootstrap="vendor/autoload.php"
+>
+
+    <testsuites>
+        <testsuite name="Symfony DoctrinePHPCRBundle Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory>.</directory>
+            <exclude>
+                <directory>Resources/</directory>
+                <directory>Tests/</directory>
+                <directory>vendor/</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+    <php>
+        <!-- ignored until we drop symfony 2 support and remove BaseTestCase::getKernelClass -->
+        <server name="KERNEL_CLASS" value="Doctrine\Bundle\PHPCRBundle\Tests\Fixtures\App\Kernel"/>
+    </php>
+</phpunit>

@@ -1,0 +1,4 @@
+preset: recommended
+
+enabled:
+  - no_useless_else

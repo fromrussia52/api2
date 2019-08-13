@@ -1,0 +1,60 @@
+# Shell shortcuts
+aliases: shell:alias:list
+creload: shell:config:reload
+cinit: shell:config:init
+clear: shell:clear
+
+# MySQL commands
+use: workspace:use
+explain: node-type:show
+
+# Filesystem commands
+cd: shell:path:change
+rm: node:remove
+mv: node:move
+pwd: shell:path:show
+exit: shell:exit
+
+# Node commands
+ls: node:list
+ln: node:clone # symlink, as in ln -s
+cp: node:copy
+cat: node:property:show
+touch: node:property:set
+mkdir: node:create
+
+# Node type commands
+mixins: node-type:list "^mix:"
+nodetypes: node-type:list
+ntedit: node-type:edit
+ntshow: node-type:show
+
+# Workspace commands
+workspaces: workspace:list
+
+# Namespsce commands
+namespaces: workspace:namespace:list
+nsset: workspace:namespace:register
+
+# Editor commands
+vi: node:edit
+vim: node:edit
+nano: node:edit
+
+# GNU commands
+man: help
+
+# Version commands
+checkin: version:checkin
+ci: version:checkin
+co: version:checkout
+checkout: version:checkout
+checkpoint: version:checkpoint
+vhist: version:history
+versions: version:history
+
+# Session commands
+save: session:save
+s: session:save
+refresh: session:refresh
+r: session:refresh

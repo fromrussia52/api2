@@ -1,0 +1,5 @@
+composer.lock
+vendor
+!tests/Fixtures/App/var/.gitempty
+tests/Fixtures/App/var
+/.php_cs.cache
