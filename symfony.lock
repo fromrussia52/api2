@@ -1,4 +1,7 @@
 {
+    "alchemy/zippy": {
+        "version": "0.4.9"
+    },
     "ankitpokhrel/tus-php": {
         "version": "v1.0.8"
     },
