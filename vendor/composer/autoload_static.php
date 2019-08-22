@@ -17,6 +17,7 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '0ccdf99b8f62f02c52cba55802e0c2e7' => __DIR__ . '/..' . '/zircote/swagger-php/src/functions.php',
         '7bb4f001eb5212bde073bf47a4bbedad' => __DIR__ . '/..' . '/szymach/c-pchart/constants.php',
@@ -126,6 +127,12 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
             'JMS\\Serializer\\' => 15,
             'JMS\\SerializerBundle\\' => 21,
         ),
+        'I' => 
+        array (
+            'Illuminate\\Support\\' => 19,
+            'Illuminate\\Filesystem\\' => 22,
+            'Illuminate\\Contracts\\' => 21,
+        ),
         'H' => 
         array (
             'Hoa\\Zformat\\' => 12,
@@ -179,13 +186,13 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'C' => 
         array (
             'CpChart\\' => 8,
+            'Chumper\\Zipper\\' => 15,
             'Carbon\\' => 7,
         ),
         'A' => 
         array (
             'App\\Tests\\' => 10,
             'App\\' => 4,
-            'Alchemy\\Zippy\\' => 14,
         ),
     );
 
@@ -484,6 +491,18 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/jms/serializer-bundle',
         ),
+        'Illuminate\\Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/support',
+        ),
+        'Illuminate\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/filesystem',
+        ),
+        'Illuminate\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
         'Hoa\\Zformat\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/zformat',
@@ -631,6 +650,10 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/szymach/c-pchart/src',
         ),
+        'Chumper\\Zipper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/chumper/zipper/src/Chumper/Zipper',
+        ),
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
@@ -642,10 +665,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
-        ),
-        'Alchemy\\Zippy\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/alchemy/zippy/src',
         ),
     );
 
