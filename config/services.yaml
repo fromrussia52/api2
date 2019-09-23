@@ -5,6 +5,12 @@
 # https://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
 parameters:
     locale: 'en'
+    database_driver:   pdo_mysql
+    database_host:     localhost
+    database_port:     3306
+    database_name:     phpcr
+    database_user:     phpcr
+    database_password: phpcr
 
 services:
     # default configuration for services in *this* file
