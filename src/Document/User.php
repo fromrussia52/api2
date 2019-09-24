@@ -9,7 +9,7 @@ use Doctrine\ODM\PHPCR\Document\Generic;
 /**
  * @PHPCR\Document()
  */
-class User extends Generic implements UserInterface 
+class User extends Generic implements UserInterface, \Serializable
 {
     /**
      * @PHPCR\Field(type="string")
@@ -19,7 +19,7 @@ class User extends Generic implements UserInterface
     /**
      * @PHPCR\Field(type="string", multivalue=true)
      */
-    private $roles = [];
+    private $roles = ['ROLE_USER'];
 
     /**
      * @PHPCR\Field(type="string")
@@ -97,5 +97,28 @@ class User extends Generic implements UserInterface
     {
         // If you store any temporary, sensitive data on the user, clear it here
         // $this->plainPassword = null;
+    }
+
+    /** @see \Serializable::serialize() */
+    public function serialize()
+    {
+        return serialize([
+            $this->id,
+            $this->username,
+            $this->password,
+            // see section on salt below
+            // $this->salt,
+        ]);
+    }
+    /** @see \Serializable::unserialize() */
+    public function unserialize($serialized)
+    {
+        list(
+            $this->id,
+            $this->username,
+            $this->password,
+            // see section on salt below
+            // $this->salt
+        ) = unserialize($serialized);
     }
 }

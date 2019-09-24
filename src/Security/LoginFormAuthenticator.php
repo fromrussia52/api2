@@ -2,7 +2,6 @@
 
 namespace App\Security;
 
-use App\Document\User;
 use Doctrine\ODM\PHPCR\DocumentManagerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -18,6 +17,7 @@ use Symfony\Component\Security\Csrf\CsrfToken;
 use Symfony\Component\Security\Csrf\CsrfTokenManagerInterface;
 use Symfony\Component\Security\Guard\Authenticator\AbstractFormLoginAuthenticator;
 use Symfony\Component\Security\Http\Util\TargetPathTrait;
+use App\Security\UserProvider;
 
 class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
 {
@@ -27,13 +27,15 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
     private $urlGenerator;
     private $csrfTokenManager;
     private $passwordEncoder;
+    private $userProvider;
 
-    public function __construct(DocumentManagerInterface $documentManager, UrlGeneratorInterface $urlGenerator, CsrfTokenManagerInterface $csrfTokenManager, UserPasswordEncoderInterface $passwordEncoder)
+    public function __construct(DocumentManagerInterface $documentManager, UrlGeneratorInterface $urlGenerator, CsrfTokenManagerInterface $csrfTokenManager, UserPasswordEncoderInterface $passwordEncoder, UserProvider $userProvider)
     {
         $this->documentManager = $documentManager;
         $this->urlGenerator = $urlGenerator;
         $this->csrfTokenManager = $csrfTokenManager;
         $this->passwordEncoder = $passwordEncoder;
+        $this->userProvider = $userProvider;
     }
 
     public function supports(Request $request)
@@ -64,7 +66,7 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
             throw new InvalidCsrfTokenException();
         }
 
-        $user = $this->documentManager->find(User::class, '/users/' . $credentials['username']);
+        $user = $this->userProvider->loadUserByUsername($credentials['username']);
 
         if (!$user) {
             // fail authentication with a custom error
