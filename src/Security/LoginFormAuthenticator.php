@@ -4,6 +4,7 @@ namespace App\Security;
 
 use Doctrine\ODM\PHPCR\DocumentManagerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
@@ -89,9 +90,12 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
 
         // For example : return new RedirectResponse($this->urlGenerator->generate('some_route'));
         //throw new \Exception('TODO: provide a valid redirect inside '.__FILE__);
-        return new RedirectResponse($this->urlGenerator->generate('app_homepage'));
+        //return new RedirectResponse($this->urlGenerator->generate('app_homepage'));
+        return new JsonResponse([
+            'sid' => $request->getSession()->getId()
+        ]);
     }
-
+    
     protected function getLoginUrl()
     {
         return $this->urlGenerator->generate('app_login');
