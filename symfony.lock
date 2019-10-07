@@ -2,6 +2,18 @@
     "ankitpokhrel/tus-php": {
         "version": "v1.0.8"
     },
+    "atoum/atoum": {
+        "version": "3.3.0"
+    },
+    "atoum/praspel-extension": {
+        "version": "0.17.02.24"
+    },
+    "atoum/ruler-extension": {
+        "version": "1.3.0"
+    },
+    "atoum/visibility-extension": {
+        "version": "1.3.0"
+    },
     "chumper/zipper": {
         "version": "v1.0.2"
     },
@@ -144,10 +156,22 @@
     "guzzlehttp/psr7": {
         "version": "1.5.2"
     },
+    "hoa/cli": {
+        "version": "2.17.07.12"
+    },
     "hoa/compiler": {
         "version": "3.17.08.08"
     },
     "hoa/consistency": {
+        "version": "1.17.05.02"
+    },
+    "hoa/console": {
+        "version": "3.17.05.02"
+    },
+    "hoa/devtools": {
+        "version": "1.17.08.08"
+    },
+    "hoa/dispatcher": {
         "version": "1.17.05.02"
     },
     "hoa/event": {
@@ -159,26 +183,62 @@
     "hoa/file": {
         "version": "1.17.07.11"
     },
+    "hoa/http": {
+        "version": "1.17.01.13"
+    },
     "hoa/iterator": {
+        "version": "2.17.01.10"
+    },
+    "hoa/kitab": {
+        "version": "0.12"
+    },
+    "hoa/locale": {
         "version": "2.17.01.10"
     },
     "hoa/math": {
         "version": "1.17.05.16"
     },
+    "hoa/praspel": {
+        "version": "1.17.01.10"
+    },
     "hoa/protocol": {
         "version": "1.17.01.14"
+    },
+    "hoa/realdom": {
+        "version": "1.17.01.13"
     },
     "hoa/regex": {
         "version": "1.17.01.13"
     },
+    "hoa/router": {
+        "version": "3.17.01.14"
+    },
+    "hoa/ruler": {
+        "version": "2.17.05.16"
+    },
     "hoa/stream": {
         "version": "1.17.02.21"
+    },
+    "hoa/stringbuffer": {
+        "version": "1.17.01.16"
+    },
+    "hoa/test": {
+        "version": "2.17.08.18"
     },
     "hoa/ustring": {
         "version": "4.17.01.16"
     },
+    "hoa/view": {
+        "version": "3.17.01.14"
+    },
     "hoa/visitor": {
         "version": "2.17.01.16"
+    },
+    "hoa/xml": {
+        "version": "1.17.01.16"
+    },
+    "hoa/xyl": {
+        "version": "1.17.01.16"
     },
     "hoa/zformat": {
         "version": "1.17.01.10"
@@ -220,6 +280,9 @@
             "./config/packages/jms_serializer.yaml",
             "./config/packages/prod/jms_serializer.yaml"
         ]
+    },
+    "league/commonmark": {
+        "version": "0.19.3"
     },
     "monolog/monolog": {
         "version": "1.24.0"

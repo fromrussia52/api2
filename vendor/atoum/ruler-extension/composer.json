@@ -1,0 +1,29 @@
+{
+    "name": "atoum/ruler-extension",
+    "description": "The atoum ruler-extension allows you to filter your tests using Hoa\\Ruler",
+    "keywords": ["TDD", "atoum", "test", "unit testing", "ruler", "atoum-extension"],
+    "require": {
+        "atoum/atoum": "^2.9 | ^3.0",
+        "hoa/ruler": ">=1.15.11.09,<2.0 | >=2.16.01.15,<3.0"
+    },
+    "conflict": {
+        "hoa/core": "<2.14.12.10",
+        "hoa/visitor": "<1.14.12.10",
+        "hoa/compiler": "<2.14.12.10",
+        "hoa/file": "<0.14.12.10",
+        "hoa/stream": "<0.14.12.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Gallou",
+            "email": "adriengallou@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mageekguy\\atoum\\ruler\\": "classes"
+        },
+        "files": ["configuration.php"]
+    }
+}
