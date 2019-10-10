@@ -284,6 +284,9 @@
     "league/commonmark": {
         "version": "0.19.3"
     },
+    "league/flysystem": {
+        "version": "1.0.46"
+    },
     "monolog/monolog": {
         "version": "1.24.0"
     },

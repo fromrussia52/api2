@@ -135,6 +135,7 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         ),
         'L' => 
         array (
+            'League\\Flysystem\\' => 17,
             'League\\CommonMark\\' => 18,
         ),
         'K' => 
@@ -534,6 +535,10 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'Metadata\\' => 
         array (
             0 => __DIR__ . '/..' . '/jms/metadata/src',
+        ),
+        'League\\Flysystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/flysystem/src',
         ),
         'League\\CommonMark\\' => 
         array (
