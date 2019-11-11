@@ -9,42 +9,25 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
-        '05b9a5537dca9da890b1dea7b91b3ff7' => __DIR__ . '/..' . '/atoum/visibility-extension/configuration.php',
-        'e88992873b7765f9b5710cab95ba5dd7' => __DIR__ . '/..' . '/hoa/consistency/Prelude.php',
-        '3e76f7f02b41af8cea96018933f6b7e3' => __DIR__ . '/..' . '/hoa/protocol/Wrapper.php',
-        '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        'e88992873b7765f9b5710cab95ba5dd7' => __DIR__ . '/..' . '/hoa/consistency/Prelude.php',
+        '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
+        '3e76f7f02b41af8cea96018933f6b7e3' => __DIR__ . '/..' . '/hoa/protocol/Wrapper.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '930a59428b7073e65c96be99b5333ab4' => __DIR__ . '/..' . '/atoum/ruler-extension/configuration.php',
-        '57c07d1d8695f73fead6bde543a9ef23' => __DIR__ . '/..' . '/hoa/kitab/src/Bootstrap.php',
-        '0ccdf99b8f62f02c52cba55802e0c2e7' => __DIR__ . '/..' . '/zircote/swagger-php/src/functions.php',
         '7bb4f001eb5212bde073bf47a4bbedad' => __DIR__ . '/..' . '/szymach/c-pchart/constants.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'p' => 
-        array (
-            'phpDocumentor\\Reflection\\' => 25,
-        ),
-        'm' => 
-        array (
-            'mageekguy\\atoum\\visibility\\' => 27,
-            'mageekguy\\atoum\\ruler\\' => 22,
-        ),
         'Z' => 
         array (
             'Zend\\EventManager\\' => 18,
             'Zend\\Code\\' => 10,
-        ),
-        'W' => 
-        array (
-            'Webmozart\\Assert\\' => 17,
         ),
         'T' => 
         array (
@@ -71,7 +54,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
             'Symfony\\Component\\Security\\Csrf\\' => 32,
             'Symfony\\Component\\Security\\Core\\' => 32,
             'Symfony\\Component\\Routing\\' => 26,
-            'Symfony\\Component\\PropertyInfo\\' => 31,
             'Symfony\\Component\\PropertyAccess\\' => 33,
             'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\OptionsResolver\\' => 34,
@@ -101,10 +83,7 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
             'Symfony\\Bridge\\Twig\\' => 20,
             'Symfony\\Bridge\\Monolog\\' => 23,
             'Symfony\\Bridge\\Doctrine\\' => 24,
-            'Swagger\\' => 8,
             'Sensio\\Bundle\\FrameworkExtraBundle\\' => 35,
-            'ScayTrase\\Api\\Rpc\\' => 18,
-            'ScayTrase\\Api\\' => 14,
         ),
         'R' => 
         array (
@@ -125,7 +104,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'N' => 
         array (
             'Nelmio\\CorsBundle\\' => 18,
-            'Nelmio\\ApiDocBundle\\' => 20,
             'Negotiation\\' => 12,
         ),
         'M' => 
@@ -136,11 +114,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'L' => 
         array (
             'League\\Flysystem\\' => 17,
-            'League\\CommonMark\\' => 18,
-        ),
-        'K' => 
-        array (
-            'Kitab\\' => 6,
         ),
         'J' => 
         array (
@@ -156,33 +129,18 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'H' => 
         array (
             'Hoa\\Zformat\\' => 12,
-            'Hoa\\Xyl\\' => 8,
-            'Hoa\\Xml\\' => 8,
             'Hoa\\Visitor\\' => 12,
-            'Hoa\\View\\' => 9,
             'Hoa\\Ustring\\' => 12,
-            'Hoa\\Test\\' => 9,
-            'Hoa\\Stringbuffer\\' => 17,
             'Hoa\\Stream\\' => 11,
-            'Hoa\\Ruler\\' => 10,
-            'Hoa\\Router\\' => 11,
             'Hoa\\Regex\\' => 10,
-            'Hoa\\Realdom\\' => 12,
             'Hoa\\Protocol\\' => 13,
-            'Hoa\\Praspel\\' => 12,
             'Hoa\\Math\\' => 9,
-            'Hoa\\Locale\\' => 11,
             'Hoa\\Iterator\\' => 13,
-            'Hoa\\Http\\' => 9,
             'Hoa\\File\\' => 9,
             'Hoa\\Exception\\' => 14,
             'Hoa\\Event\\' => 10,
-            'Hoa\\Dispatcher\\' => 15,
-            'Hoa\\Devtools\\' => 13,
-            'Hoa\\Console\\' => 12,
             'Hoa\\Consistency\\' => 16,
             'Hoa\\Compiler\\' => 13,
-            'Hoa\\Cli\\' => 8,
         ),
         'G' => 
         array (
@@ -197,7 +155,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'E' => 
         array (
             'Egulias\\EmailValidator\\' => 23,
-            'EXSyst\\Component\\Swagger\\' => 25,
         ),
         'D' => 
         array (
@@ -206,6 +163,7 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
             'Doctrine\\Migrations\\' => 20,
             'Doctrine\\Instantiator\\' => 22,
             'Doctrine\\DBAL\\' => 14,
+            'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
             'Doctrine\\Common\\DataFixtures\\' => 29,
             'Doctrine\\Common\\Collections\\' => 28,
@@ -227,27 +185,12 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         ),
         'A' => 
         array (
-            'Atoum\\PraspelExtension\\' => 23,
             'App\\Tests\\' => 10,
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'phpDocumentor\\Reflection\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-        ),
-        'mageekguy\\atoum\\visibility\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/atoum/visibility-extension/classes',
-        ),
-        'mageekguy\\atoum\\ruler\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/atoum/ruler-extension/classes',
-        ),
         'Zend\\EventManager\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-eventmanager/src',
@@ -255,10 +198,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'Zend\\Code\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-code/src',
-        ),
-        'Webmozart\\Assert\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
         'Twig\\' => 
         array (
@@ -339,10 +278,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'Symfony\\Component\\Routing\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/routing',
-        ),
-        'Symfony\\Component\\PropertyInfo\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/property-info',
         ),
         'Symfony\\Component\\PropertyAccess\\' => 
         array (
@@ -460,21 +395,9 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/symfony/doctrine-bridge',
         ),
-        'Swagger\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/zircote/swagger-php/src',
-        ),
         'Sensio\\Bundle\\FrameworkExtraBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/sensio/framework-extra-bundle',
-        ),
-        'ScayTrase\\Api\\Rpc\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/scaytrase/rpc-common',
-        ),
-        'ScayTrase\\Api\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/scaytrase/json-rpc-client',
         ),
         'React\\EventLoop\\' => 
         array (
@@ -520,10 +443,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/nelmio/cors-bundle',
         ),
-        'Nelmio\\ApiDocBundle\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nelmio/api-doc-bundle',
-        ),
         'Negotiation\\' => 
         array (
             0 => __DIR__ . '/..' . '/willdurand/negotiation/src/Negotiation',
@@ -539,14 +458,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'League\\Flysystem\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/flysystem/src',
-        ),
-        'League\\CommonMark\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/commonmark/src',
-        ),
-        'Kitab\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/kitab/src',
         ),
         'JMS\\Serializer\\' => 
         array (
@@ -572,77 +483,33 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/hoa/zformat',
         ),
-        'Hoa\\Xyl\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/xyl',
-        ),
-        'Hoa\\Xml\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/xml',
-        ),
         'Hoa\\Visitor\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/visitor',
-        ),
-        'Hoa\\View\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/view',
         ),
         'Hoa\\Ustring\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/ustring',
         ),
-        'Hoa\\Test\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/test',
-        ),
-        'Hoa\\Stringbuffer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/stringbuffer',
-        ),
         'Hoa\\Stream\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/stream',
-        ),
-        'Hoa\\Ruler\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/ruler',
-        ),
-        'Hoa\\Router\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/router',
         ),
         'Hoa\\Regex\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/regex',
         ),
-        'Hoa\\Realdom\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/realdom',
-        ),
         'Hoa\\Protocol\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/protocol',
-        ),
-        'Hoa\\Praspel\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/praspel',
         ),
         'Hoa\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/math',
         ),
-        'Hoa\\Locale\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/locale',
-        ),
         'Hoa\\Iterator\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/iterator',
-        ),
-        'Hoa\\Http\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/http',
         ),
         'Hoa\\File\\' => 
         array (
@@ -656,18 +523,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/hoa/event',
         ),
-        'Hoa\\Dispatcher\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/dispatcher',
-        ),
-        'Hoa\\Devtools\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/devtools',
-        ),
-        'Hoa\\Console\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/console',
-        ),
         'Hoa\\Consistency\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/consistency',
@@ -675,10 +530,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'Hoa\\Compiler\\' => 
         array (
             0 => __DIR__ . '/..' . '/hoa/compiler',
-        ),
-        'Hoa\\Cli\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/hoa/cli',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -700,10 +551,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
         ),
-        'EXSyst\\Component\\Swagger\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/exsyst/swagger/src',
-        ),
         'Doctrine\\ORM\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/orm/lib/Doctrine/ORM',
@@ -723,6 +570,10 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'Doctrine\\DBAL\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/dbal/lib/Doctrine/DBAL',
+        ),
+        'Doctrine\\Common\\Lexer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer',
         ),
         'Doctrine\\Common\\Inflector\\' => 
         array (
@@ -787,10 +638,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
-        'Atoum\\PraspelExtension\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/atoum/praspel-extension',
-        ),
         'App\\Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
@@ -836,13 +683,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
                 1 => __DIR__ . '/..' . '/jackalope/jackalope-doctrine-dbal/src',
             ),
         ),
-        'D' => 
-        array (
-            'Doctrine\\Common\\Lexer\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
-            ),
-        ),
     );
 
     public static $fallbackDirsPsr0 = array (
@@ -869,318 +709,6 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'TCPDF_IMPORT' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_import.php',
         'TCPDF_PARSER' => __DIR__ . '/..' . '/tecnickcom/tcpdf/tcpdf_parser.php',
         'TCPDF_STATIC' => __DIR__ . '/..' . '/tecnickcom/tcpdf/include/tcpdf_static.php',
-        'mageekguy\\atoum\\adapter' => __DIR__ . '/..' . '/atoum/atoum/classes/adapter.php',
-        'mageekguy\\atoum\\adapter\\definition' => __DIR__ . '/..' . '/atoum/atoum/classes/adapter/definition.php',
-        'mageekguy\\atoum\\annotations\\extractor' => __DIR__ . '/..' . '/atoum/atoum/classes/annotations/extractor.php',
-        'mageekguy\\atoum\\asserter' => __DIR__ . '/..' . '/atoum/atoum/classes/asserter.php',
-        'mageekguy\\atoum\\asserter\\definition' => __DIR__ . '/..' . '/atoum/atoum/classes/asserter/definition.php',
-        'mageekguy\\atoum\\asserter\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/asserter/exception.php',
-        'mageekguy\\atoum\\asserter\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/asserter/generator.php',
-        'mageekguy\\atoum\\asserter\\resolver' => __DIR__ . '/..' . '/atoum/atoum/classes/asserter/resolver.php',
-        'mageekguy\\atoum\\asserters\\adapter' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/adapter.php',
-        'mageekguy\\atoum\\asserters\\adapter\\call' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/adapter/call.php',
-        'mageekguy\\atoum\\asserters\\adapter\\call\\exceptions\\logic' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/adapter/call/exceptions/logic.php',
-        'mageekguy\\atoum\\asserters\\adapter\\call\\manager' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/adapter/call/manager.php',
-        'mageekguy\\atoum\\asserters\\adapter\\call\\manager\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/adapter/call/manager/exception.php',
-        'mageekguy\\atoum\\asserters\\adapter\\exceptions\\logic' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/adapter/exceptions/logic.php',
-        'mageekguy\\atoum\\asserters\\boolean' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/boolean.php',
-        'mageekguy\\atoum\\asserters\\castToArray' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/castToArray.php',
-        'mageekguy\\atoum\\asserters\\castToString' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/castToString.php',
-        'mageekguy\\atoum\\asserters\\constant' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/constant.php',
-        'mageekguy\\atoum\\asserters\\dateInterval' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/dateInterval.php',
-        'mageekguy\\atoum\\asserters\\dateTime' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/dateTime.php',
-        'mageekguy\\atoum\\asserters\\error' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/error.php',
-        'mageekguy\\atoum\\asserters\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/exception.php',
-        'mageekguy\\atoum\\asserters\\extension' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/extension.php',
-        'mageekguy\\atoum\\asserters\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/generator.php',
-        'mageekguy\\atoum\\asserters\\generator\\asserterProxy' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/generator/asserterProxy.php',
-        'mageekguy\\atoum\\asserters\\hash' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/hash.php',
-        'mageekguy\\atoum\\asserters\\integer' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/integer.php',
-        'mageekguy\\atoum\\asserters\\iterator' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/iterator.php',
-        'mageekguy\\atoum\\asserters\\mock' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/mock.php',
-        'mageekguy\\atoum\\asserters\\mock\\exceptions\\logic' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/mock/exceptions/logic.php',
-        'mageekguy\\atoum\\asserters\\mysqlDateTime' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/mysqlDateTime.php',
-        'mageekguy\\atoum\\asserters\\output' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/output.php',
-        'mageekguy\\atoum\\asserters\\phpArray' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpArray.php',
-        'mageekguy\\atoum\\asserters\\phpArray\\child' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpArray/child.php',
-        'mageekguy\\atoum\\asserters\\phpClass' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpClass.php',
-        'mageekguy\\atoum\\asserters\\phpFloat' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpFloat.php',
-        'mageekguy\\atoum\\asserters\\phpFunction' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpFunction.php',
-        'mageekguy\\atoum\\asserters\\phpObject' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpObject.php',
-        'mageekguy\\atoum\\asserters\\phpResource' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpResource.php',
-        'mageekguy\\atoum\\asserters\\phpString' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/phpString.php',
-        'mageekguy\\atoum\\asserters\\sizeOf' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/sizeOf.php',
-        'mageekguy\\atoum\\asserters\\stream' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/stream.php',
-        'mageekguy\\atoum\\asserters\\testedClass' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/testedClass.php',
-        'mageekguy\\atoum\\asserters\\utf8String' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/utf8String.php',
-        'mageekguy\\atoum\\asserters\\variable' => __DIR__ . '/..' . '/atoum/atoum/classes/asserters/variable.php',
-        'mageekguy\\atoum\\autoloader' => __DIR__ . '/..' . '/atoum/atoum/classes/autoloader.php',
-        'mageekguy\\atoum\\autoloader\\mock' => __DIR__ . '/..' . '/atoum/atoum/classes/autoloader/mock.php',
-        'mageekguy\\atoum\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/cli.php',
-        'mageekguy\\atoum\\cli\\clear' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/clear.php',
-        'mageekguy\\atoum\\cli\\colorizer' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/colorizer.php',
-        'mageekguy\\atoum\\cli\\command' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/command.php',
-        'mageekguy\\atoum\\cli\\command\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/command/exception.php',
-        'mageekguy\\atoum\\cli\\commands\\git' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/commands/git.php',
-        'mageekguy\\atoum\\cli\\progressBar' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/progressBar.php',
-        'mageekguy\\atoum\\cli\\progressBar\\dot' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/progressBar/dot.php',
-        'mageekguy\\atoum\\cli\\prompt' => __DIR__ . '/..' . '/atoum/atoum/classes/cli/prompt.php',
-        'mageekguy\\atoum\\configurator' => __DIR__ . '/..' . '/atoum/atoum/classes/configurator.php',
-        'mageekguy\\atoum\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/exception.php',
-        'mageekguy\\atoum\\exceptions\\logic' => __DIR__ . '/..' . '/atoum/atoum/classes/exceptions/logic.php',
-        'mageekguy\\atoum\\exceptions\\logic\\badMethodCall' => __DIR__ . '/..' . '/atoum/atoum/classes/exceptions/logic/badMethodCall.php',
-        'mageekguy\\atoum\\exceptions\\logic\\invalidArgument' => __DIR__ . '/..' . '/atoum/atoum/classes/exceptions/logic/invalidArgument.php',
-        'mageekguy\\atoum\\exceptions\\runtime' => __DIR__ . '/..' . '/atoum/atoum/classes/exceptions/runtime.php',
-        'mageekguy\\atoum\\exceptions\\runtime\\file' => __DIR__ . '/..' . '/atoum/atoum/classes/exceptions/runtime/file.php',
-        'mageekguy\\atoum\\exceptions\\runtime\\unexpectedValue' => __DIR__ . '/..' . '/atoum/atoum/classes/exceptions/runtime/unexpectedValue.php',
-        'mageekguy\\atoum\\extension' => __DIR__ . '/..' . '/atoum/atoum/classes/extension.php',
-        'mageekguy\\atoum\\extension\\aggregator' => __DIR__ . '/..' . '/atoum/atoum/classes/extension/aggregator.php',
-        'mageekguy\\atoum\\extension\\configuration' => __DIR__ . '/..' . '/atoum/atoum/classes/extension/configuration.php',
-        'mageekguy\\atoum\\factory\\builder' => __DIR__ . '/..' . '/atoum/atoum/classes/factory/builder.php',
-        'mageekguy\\atoum\\factory\\builder\\closure' => __DIR__ . '/..' . '/atoum/atoum/classes/factory/builder/closure.php',
-        'mageekguy\\atoum\\fs\\path' => __DIR__ . '/..' . '/atoum/atoum/classes/fs/path.php',
-        'mageekguy\\atoum\\fs\\path\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/fs/path/exception.php',
-        'mageekguy\\atoum\\fs\\path\\factory' => __DIR__ . '/..' . '/atoum/atoum/classes/fs/path/factory.php',
-        'mageekguy\\atoum\\includer' => __DIR__ . '/..' . '/atoum/atoum/classes/includer.php',
-        'mageekguy\\atoum\\includer\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/includer/exception.php',
-        'mageekguy\\atoum\\iterators\\filters\\recursives\\atoum\\source' => __DIR__ . '/..' . '/atoum/atoum/classes/iterators/filters/recursives/atoum/source.php',
-        'mageekguy\\atoum\\iterators\\filters\\recursives\\closure' => __DIR__ . '/..' . '/atoum/atoum/classes/iterators/filters/recursives/closure.php',
-        'mageekguy\\atoum\\iterators\\filters\\recursives\\dot' => __DIR__ . '/..' . '/atoum/atoum/classes/iterators/filters/recursives/dot.php',
-        'mageekguy\\atoum\\iterators\\filters\\recursives\\extension' => __DIR__ . '/..' . '/atoum/atoum/classes/iterators/filters/recursives/extension.php',
-        'mageekguy\\atoum\\iterators\\recursives\\atoum\\source' => __DIR__ . '/..' . '/atoum/atoum/classes/iterators/recursives/atoum/source.php',
-        'mageekguy\\atoum\\iterators\\recursives\\directory\\factory' => __DIR__ . '/..' . '/atoum/atoum/classes/iterators/recursives/directory/factory.php',
-        'mageekguy\\atoum\\locale' => __DIR__ . '/..' . '/atoum/atoum/classes/locale.php',
-        'mageekguy\\atoum\\mailer' => __DIR__ . '/..' . '/atoum/atoum/classes/mailer.php',
-        'mageekguy\\atoum\\mailers\\mail' => __DIR__ . '/..' . '/atoum/atoum/classes/mailers/mail.php',
-        'mageekguy\\atoum\\mock\\aggregator' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/aggregator.php',
-        'mageekguy\\atoum\\mock\\controller' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/controller.php',
-        'mageekguy\\atoum\\mock\\controller\\invoker' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/controller/invoker.php',
-        'mageekguy\\atoum\\mock\\controller\\iterator' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/controller/iterator.php',
-        'mageekguy\\atoum\\mock\\controller\\linker' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/controller/linker.php',
-        'mageekguy\\atoum\\mock\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/generator.php',
-        'mageekguy\\atoum\\mock\\generator\\method\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/generator/method/exception.php',
-        'mageekguy\\atoum\\mock\\php\\method' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/php/method.php',
-        'mageekguy\\atoum\\mock\\php\\method\\argument' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/php/method/argument.php',
-        'mageekguy\\atoum\\mock\\stream' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/stream.php',
-        'mageekguy\\atoum\\mock\\stream\\controller' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/stream/controller.php',
-        'mageekguy\\atoum\\mock\\stream\\invoker' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/stream/invoker.php',
-        'mageekguy\\atoum\\mock\\streams\\fs\\controller' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/streams/fs/controller.php',
-        'mageekguy\\atoum\\mock\\streams\\fs\\controller\\factory' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/streams/fs/controller/factory.php',
-        'mageekguy\\atoum\\mock\\streams\\fs\\directory' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/streams/fs/directory.php',
-        'mageekguy\\atoum\\mock\\streams\\fs\\directory\\controller' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/streams/fs/directory/controller.php',
-        'mageekguy\\atoum\\mock\\streams\\fs\\file' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/streams/fs/file.php',
-        'mageekguy\\atoum\\mock\\streams\\fs\\file\\controller' => __DIR__ . '/..' . '/atoum/atoum/classes/mock/streams/fs/file/controller.php',
-        'mageekguy\\atoum\\observable' => __DIR__ . '/..' . '/atoum/atoum/classes/observable.php',
-        'mageekguy\\atoum\\observer' => __DIR__ . '/..' . '/atoum/atoum/classes/observer.php',
-        'mageekguy\\atoum\\observers\\runner' => __DIR__ . '/..' . '/atoum/atoum/classes/observers/runner.php',
-        'mageekguy\\atoum\\observers\\test' => __DIR__ . '/..' . '/atoum/atoum/classes/observers/test.php',
-        'mageekguy\\atoum\\php' => __DIR__ . '/..' . '/atoum/atoum/classes/php.php',
-        'mageekguy\\atoum\\php\\call' => __DIR__ . '/..' . '/atoum/atoum/classes/php/call.php',
-        'mageekguy\\atoum\\php\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/php/exception.php',
-        'mageekguy\\atoum\\php\\extension' => __DIR__ . '/..' . '/atoum/atoum/classes/php/extension.php',
-        'mageekguy\\atoum\\php\\mocker' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker.php',
-        'mageekguy\\atoum\\php\\mocker\\adapter' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker/adapter.php',
-        'mageekguy\\atoum\\php\\mocker\\adapter\\invoker' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker/adapter/invoker.php',
-        'mageekguy\\atoum\\php\\mocker\\constant' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker/constant.php',
-        'mageekguy\\atoum\\php\\mocker\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker/exception.php',
-        'mageekguy\\atoum\\php\\mocker\\exceptions\\constant' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker/exceptions/constant.php',
-        'mageekguy\\atoum\\php\\mocker\\funktion' => __DIR__ . '/..' . '/atoum/atoum/classes/php/mocker/funktion.php',
-        'mageekguy\\atoum\\php\\tokenizer' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterator' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterator.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterator\\value' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterator/value.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpArgument' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpArgument.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpClass' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpClass.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpConstant' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpConstant.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpDefaultValue' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpDefaultValue.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpFunction' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpFunction.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpImportation' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpImportation.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpMethod' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpMethod.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpNamespace' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpNamespace.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpProperty' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpProperty.php',
-        'mageekguy\\atoum\\php\\tokenizer\\iterators\\phpScript' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/iterators/phpScript.php',
-        'mageekguy\\atoum\\php\\tokenizer\\token' => __DIR__ . '/..' . '/atoum/atoum/classes/php/tokenizer/token.php',
-        'mageekguy\\atoum\\reader' => __DIR__ . '/..' . '/atoum/atoum/classes/reader.php',
-        'mageekguy\\atoum\\readers\\std\\in' => __DIR__ . '/..' . '/atoum/atoum/classes/readers/std/in.php',
-        'mageekguy\\atoum\\report' => __DIR__ . '/..' . '/atoum/atoum/classes/report.php',
-        'mageekguy\\atoum\\report\\field' => __DIR__ . '/..' . '/atoum/atoum/classes/report/field.php',
-        'mageekguy\\atoum\\report\\field\\decorator' => __DIR__ . '/..' . '/atoum/atoum/classes/report/field/decorator.php',
-        'mageekguy\\atoum\\report\\field\\decorators\\travis\\fold' => __DIR__ . '/..' . '/atoum/atoum/classes/report/field/decorators/travis/fold.php',
-        'mageekguy\\atoum\\report\\fields\\event' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/event.php',
-        'mageekguy\\atoum\\report\\fields\\runner' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\logo' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/logo.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\path' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/path.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\path\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/path/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/phing.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\version' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/version.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\atoum\\version\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/atoum/version/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\coverage' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/coverage.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\coverage\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/coverage/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\coverage\\html' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/coverage/html.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\coverage\\treemap' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/coverage/treemap.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\duration' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/duration.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\duration\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/duration/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\duration\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/duration/phing.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\errors' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/errors.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\errors\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/errors/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\event' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/event.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\event\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/event/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\event\\cli\\dot' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/event/cli/dot.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\exceptions' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/exceptions.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\exceptions\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/exceptions/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\execute' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/execute.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\execute\\macos\\macvim' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/execute/macos/macvim.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\execute\\macos\\phpstorm' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/execute/macos/phpstorm.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\execute\\unix\\gedit' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/execute/unix/gedit.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\execute\\unix\\gvim' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/execute/unix/gvim.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\failures\\execute\\unix\\phpstorm' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/failures/execute/unix/phpstorm.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\outputs' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/outputs.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\outputs\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/outputs/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\php\\path' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/php/path.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\php\\path\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/php/path/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\php\\version' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/php/version.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\php\\version\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/php/version/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\logo' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/logo.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\notifier' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/notifier.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\notifier\\image' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/notifier/image.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\notifier\\image\\growl' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/notifier/image/growl.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\notifier\\image\\libnotify' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/notifier/image/libnotify.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\result\\notifier\\terminal' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/result/notifier/terminal.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tap\\plan' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tap/plan.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\blank' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/blank.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\blank\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/blank/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\coverage' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/coverage.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\coverage\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/coverage/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\coverage\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/coverage/phing.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\duration' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/duration.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\duration\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/duration/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\memory' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/memory.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\memory\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/memory/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\memory\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/memory/phing.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\skipped' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/skipped.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\skipped\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/skipped/cli.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\uncompleted' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/uncompleted.php',
-        'mageekguy\\atoum\\report\\fields\\runner\\tests\\uncompleted\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/runner/tests/uncompleted/cli.php',
-        'mageekguy\\atoum\\report\\fields\\test\\duration' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/duration.php',
-        'mageekguy\\atoum\\report\\fields\\test\\duration\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/duration/cli.php',
-        'mageekguy\\atoum\\report\\fields\\test\\duration\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/duration/phing.php',
-        'mageekguy\\atoum\\report\\fields\\test\\event' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/event.php',
-        'mageekguy\\atoum\\report\\fields\\test\\event\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/event/cli.php',
-        'mageekguy\\atoum\\report\\fields\\test\\event\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/event/phing.php',
-        'mageekguy\\atoum\\report\\fields\\test\\event\\tap' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/event/tap.php',
-        'mageekguy\\atoum\\report\\fields\\test\\memory' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/memory.php',
-        'mageekguy\\atoum\\report\\fields\\test\\memory\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/memory/cli.php',
-        'mageekguy\\atoum\\report\\fields\\test\\memory\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/memory/phing.php',
-        'mageekguy\\atoum\\report\\fields\\test\\run' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/run.php',
-        'mageekguy\\atoum\\report\\fields\\test\\run\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/run/cli.php',
-        'mageekguy\\atoum\\report\\fields\\test\\run\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/run/phing.php',
-        'mageekguy\\atoum\\report\\fields\\test\\travis' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/travis.php',
-        'mageekguy\\atoum\\report\\fields\\test\\travis\\start' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/travis/start.php',
-        'mageekguy\\atoum\\report\\fields\\test\\travis\\stop' => __DIR__ . '/..' . '/atoum/atoum/classes/report/fields/test/travis/stop.php',
-        'mageekguy\\atoum\\report\\writers\\asynchronous' => __DIR__ . '/..' . '/atoum/atoum/classes/report/writers/asynchronous.php',
-        'mageekguy\\atoum\\report\\writers\\realtime' => __DIR__ . '/..' . '/atoum/atoum/classes/report/writers/realtime.php',
-        'mageekguy\\atoum\\reports\\asynchronous' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/asynchronous.php',
-        'mageekguy\\atoum\\reports\\asynchronous\\builder' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/asynchronous/builder.php',
-        'mageekguy\\atoum\\reports\\asynchronous\\clover' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/asynchronous/clover.php',
-        'mageekguy\\atoum\\reports\\asynchronous\\coveralls' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/asynchronous/coveralls.php',
-        'mageekguy\\atoum\\reports\\asynchronous\\vim' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/asynchronous/vim.php',
-        'mageekguy\\atoum\\reports\\asynchronous\\xunit' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/asynchronous/xunit.php',
-        'mageekguy\\atoum\\reports\\realtime' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime.php',
-        'mageekguy\\atoum\\reports\\realtime\\cli' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime/cli.php',
-        'mageekguy\\atoum\\reports\\realtime\\cli\\dot' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime/cli/dot.php',
-        'mageekguy\\atoum\\reports\\realtime\\cli\\light' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime/cli/light.php',
-        'mageekguy\\atoum\\reports\\realtime\\cli\\travis' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime/cli/travis.php',
-        'mageekguy\\atoum\\reports\\realtime\\phing' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime/phing.php',
-        'mageekguy\\atoum\\reports\\realtime\\tap' => __DIR__ . '/..' . '/atoum/atoum/classes/reports/realtime/tap.php',
-        'mageekguy\\atoum\\runner' => __DIR__ . '/..' . '/atoum/atoum/classes/runner.php',
-        'mageekguy\\atoum\\runner\\score' => __DIR__ . '/..' . '/atoum/atoum/classes/runner/score.php',
-        'mageekguy\\atoum\\score' => __DIR__ . '/..' . '/atoum/atoum/classes/score.php',
-        'mageekguy\\atoum\\score\\coverage' => __DIR__ . '/..' . '/atoum/atoum/classes/score/coverage.php',
-        'mageekguy\\atoum\\script' => __DIR__ . '/..' . '/atoum/atoum/classes/script.php',
-        'mageekguy\\atoum\\script\\arguments\\parser' => __DIR__ . '/..' . '/atoum/atoum/classes/script/arguments/parser.php',
-        'mageekguy\\atoum\\script\\configurable' => __DIR__ . '/..' . '/atoum/atoum/classes/script/configurable.php',
-        'mageekguy\\atoum\\script\\prompt' => __DIR__ . '/..' . '/atoum/atoum/classes/script/prompt.php',
-        'mageekguy\\atoum\\scripts\\builder' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/builder.php',
-        'mageekguy\\atoum\\scripts\\builder\\vcs' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/builder/vcs.php',
-        'mageekguy\\atoum\\scripts\\builder\\vcs\\svn' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/builder/vcs/svn.php',
-        'mageekguy\\atoum\\scripts\\compiler' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/compiler.php',
-        'mageekguy\\atoum\\scripts\\coverage' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/coverage.php',
-        'mageekguy\\atoum\\scripts\\git\\pusher' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/git/pusher.php',
-        'mageekguy\\atoum\\scripts\\phar\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/phar/generator.php',
-        'mageekguy\\atoum\\scripts\\phar\\stub' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/phar/stub.php',
-        'mageekguy\\atoum\\scripts\\runner' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/runner.php',
-        'mageekguy\\atoum\\scripts\\runner\\looper' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/runner/looper.php',
-        'mageekguy\\atoum\\scripts\\runner\\loopers\\prompt' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/runner/loopers/prompt.php',
-        'mageekguy\\atoum\\scripts\\tagger' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/tagger.php',
-        'mageekguy\\atoum\\scripts\\tagger\\engine' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/tagger/engine.php',
-        'mageekguy\\atoum\\scripts\\treemap' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap.php',
-        'mageekguy\\atoum\\scripts\\treemap\\analyzer' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap/analyzer.php',
-        'mageekguy\\atoum\\scripts\\treemap\\analyzer\\generic' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap/analyzer/generic.php',
-        'mageekguy\\atoum\\scripts\\treemap\\analyzers\\size' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap/analyzers/size.php',
-        'mageekguy\\atoum\\scripts\\treemap\\analyzers\\sloc' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap/analyzers/sloc.php',
-        'mageekguy\\atoum\\scripts\\treemap\\analyzers\\token' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap/analyzers/token.php',
-        'mageekguy\\atoum\\scripts\\treemap\\categorizer' => __DIR__ . '/..' . '/atoum/atoum/classes/scripts/treemap/categorizer.php',
-        'mageekguy\\atoum\\superglobals' => __DIR__ . '/..' . '/atoum/atoum/classes/superglobals.php',
-        'mageekguy\\atoum\\template' => __DIR__ . '/..' . '/atoum/atoum/classes/template.php',
-        'mageekguy\\atoum\\template\\data' => __DIR__ . '/..' . '/atoum/atoum/classes/template/data.php',
-        'mageekguy\\atoum\\template\\iterator' => __DIR__ . '/..' . '/atoum/atoum/classes/template/iterator.php',
-        'mageekguy\\atoum\\template\\parser' => __DIR__ . '/..' . '/atoum/atoum/classes/template/parser.php',
-        'mageekguy\\atoum\\template\\parser\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/template/parser/exception.php',
-        'mageekguy\\atoum\\template\\tag' => __DIR__ . '/..' . '/atoum/atoum/classes/template/tag.php',
-        'mageekguy\\atoum\\test' => __DIR__ . '/..' . '/atoum/atoum/classes/test.php',
-        'mageekguy\\atoum\\test\\adapter' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter.php',
-        'mageekguy\\atoum\\test\\adapter\\call' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/call.php',
-        'mageekguy\\atoum\\test\\adapter\\call\\arguments\\decorator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/call/arguments/decorator.php',
-        'mageekguy\\atoum\\test\\adapter\\call\\decorator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/call/decorator.php',
-        'mageekguy\\atoum\\test\\adapter\\call\\decorators\\addClass' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/call/decorators/addClass.php',
-        'mageekguy\\atoum\\test\\adapter\\calls' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/calls.php',
-        'mageekguy\\atoum\\test\\adapter\\calls\\decorator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/calls/decorator.php',
-        'mageekguy\\atoum\\test\\adapter\\invoker' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/invoker.php',
-        'mageekguy\\atoum\\test\\adapter\\storage' => __DIR__ . '/..' . '/atoum/atoum/classes/test/adapter/storage.php',
-        'mageekguy\\atoum\\test\\asserter\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/asserter/generator.php',
-        'mageekguy\\atoum\\test\\assertion\\aliaser' => __DIR__ . '/..' . '/atoum/atoum/classes/test/assertion/aliaser.php',
-        'mageekguy\\atoum\\test\\assertion\\manager' => __DIR__ . '/..' . '/atoum/atoum/classes/test/assertion/manager.php',
-        'mageekguy\\atoum\\test\\assertion\\manager\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/test/assertion/manager/exception.php',
-        'mageekguy\\atoum\\test\\data\\provider' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/provider.php',
-        'mageekguy\\atoum\\test\\data\\provider\\aggregator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/provider/aggregator.php',
-        'mageekguy\\atoum\\test\\data\\provider\\object\\exceptions\\mandatoryArgument' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/provider/object/exceptions/mandatoryArgument.php',
-        'mageekguy\\atoum\\test\\data\\provider\\object\\exceptions\\privateConstructor' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/provider/object/exceptions/privateConstructor.php',
-        'mageekguy\\atoum\\test\\data\\providers\\mock' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/providers/mock.php',
-        'mageekguy\\atoum\\test\\data\\providers\\phpObject' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/providers/phpObject.php',
-        'mageekguy\\atoum\\test\\data\\set' => __DIR__ . '/..' . '/atoum/atoum/classes/test/data/set.php',
-        'mageekguy\\atoum\\test\\engine' => __DIR__ . '/..' . '/atoum/atoum/classes/test/engine.php',
-        'mageekguy\\atoum\\test\\engines\\concurrent' => __DIR__ . '/..' . '/atoum/atoum/classes/test/engines/concurrent.php',
-        'mageekguy\\atoum\\test\\engines\\inline' => __DIR__ . '/..' . '/atoum/atoum/classes/test/engines/inline.php',
-        'mageekguy\\atoum\\test\\engines\\isolate' => __DIR__ . '/..' . '/atoum/atoum/classes/test/engines/isolate.php',
-        'mageekguy\\atoum\\test\\exceptions\\runtime' => __DIR__ . '/..' . '/atoum/atoum/classes/test/exceptions/runtime.php',
-        'mageekguy\\atoum\\test\\exceptions\\skip' => __DIR__ . '/..' . '/atoum/atoum/classes/test/exceptions/skip.php',
-        'mageekguy\\atoum\\test\\exceptions\\stop' => __DIR__ . '/..' . '/atoum/atoum/classes/test/exceptions/stop.php',
-        'mageekguy\\atoum\\test\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/generator.php',
-        'mageekguy\\atoum\\test\\generator\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/test/generator/exception.php',
-        'mageekguy\\atoum\\test\\mock\\generator' => __DIR__ . '/..' . '/atoum/atoum/classes/test/mock/generator.php',
-        'mageekguy\\atoum\\test\\score' => __DIR__ . '/..' . '/atoum/atoum/classes/test/score.php',
-        'mageekguy\\atoum\\tools\\diff' => __DIR__ . '/..' . '/atoum/atoum/classes/tools/diff.php',
-        'mageekguy\\atoum\\tools\\diff\\decorator' => __DIR__ . '/..' . '/atoum/atoum/classes/tools/diff/decorator.php',
-        'mageekguy\\atoum\\tools\\diffs\\variable' => __DIR__ . '/..' . '/atoum/atoum/classes/tools/diffs/variable.php',
-        'mageekguy\\atoum\\tools\\variable\\analyzer' => __DIR__ . '/..' . '/atoum/atoum/classes/tools/variable/analyzer.php',
-        'mageekguy\\atoum\\writer' => __DIR__ . '/..' . '/atoum/atoum/classes/writer.php',
-        'mageekguy\\atoum\\writer\\decorator' => __DIR__ . '/..' . '/atoum/atoum/classes/writer/decorator.php',
-        'mageekguy\\atoum\\writer\\decorators\\eol' => __DIR__ . '/..' . '/atoum/atoum/classes/writer/decorators/eol.php',
-        'mageekguy\\atoum\\writer\\decorators\\prompt' => __DIR__ . '/..' . '/atoum/atoum/classes/writer/decorators/prompt.php',
-        'mageekguy\\atoum\\writer\\decorators\\rtrim' => __DIR__ . '/..' . '/atoum/atoum/classes/writer/decorators/rtrim.php',
-        'mageekguy\\atoum\\writer\\decorators\\trim' => __DIR__ . '/..' . '/atoum/atoum/classes/writer/decorators/trim.php',
-        'mageekguy\\atoum\\writers\\file' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/file.php',
-        'mageekguy\\atoum\\writers\\http' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/http.php',
-        'mageekguy\\atoum\\writers\\http\\exception' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/http/exception.php',
-        'mageekguy\\atoum\\writers\\mail' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/mail.php',
-        'mageekguy\\atoum\\writers\\std' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/std.php',
-        'mageekguy\\atoum\\writers\\std\\err' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/std/err.php',
-        'mageekguy\\atoum\\writers\\std\\out' => __DIR__ . '/..' . '/atoum/atoum/classes/writers/std/out.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

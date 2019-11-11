@@ -12,6 +12,5 @@ return array(
     'PHPCR' => array($vendorDir . '/phpcr/phpcr/src'),
     'JsonpCallbackValidator' => array($vendorDir . '/willdurand/jsonp-callback-validator/src'),
     'Jackalope\\' => array($vendorDir . '/jackalope/jackalope/src', $vendorDir . '/jackalope/jackalope-doctrine-dbal/src'),
-    'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
     '' => array($vendorDir . '/phpcr/phpcr-shell/src'),
 );
