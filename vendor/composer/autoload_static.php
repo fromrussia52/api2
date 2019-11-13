@@ -13,12 +13,15 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e88992873b7765f9b5710cab95ba5dd7' => __DIR__ . '/..' . '/hoa/consistency/Prelude.php',
         '6a47392539ca2329373e0d33e1dba053' => __DIR__ . '/..' . '/symfony/polyfill-intl-icu/bootstrap.php',
+        'ad155f8f1cf0d418fe49e248db8c661b' => __DIR__ . '/..' . '/react/promise/src/functions_include.php',
         '3e76f7f02b41af8cea96018933f6b7e3' => __DIR__ . '/..' . '/hoa/protocol/Wrapper.php',
+        '972fda704d680a3a53c68e34e193cb22' => __DIR__ . '/..' . '/react/promise-timer/src/functions_include.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '3be16222a6efa6dd226a219eaaff823b' => __DIR__ . '/..' . '/ratchet/pawl/src/functions_include.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '7bb4f001eb5212bde073bf47a4bbedad' => __DIR__ . '/..' . '/szymach/c-pchart/constants.php',
     );
@@ -33,6 +36,8 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             'Twig\\' => 5,
             'TusPhp\\' => 7,
+            'Thruway\\Transport\\' => 18,
+            'Thruway\\' => 8,
         ),
         'S' => 
         array (
@@ -87,7 +92,16 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         ),
         'R' => 
         array (
+            'React\\Stream\\' => 13,
+            'React\\Socket\\' => 13,
+            'React\\Promise\\Timer\\' => 20,
+            'React\\Promise\\' => 14,
             'React\\EventLoop\\' => 16,
+            'React\\Dns\\' => 10,
+            'React\\Cache\\' => 12,
+            'Ratchet\\RFC6455\\' => 16,
+            'Ratchet\\Client\\' => 15,
+            'Ratchet\\' => 8,
             'Ramsey\\Uuid\\' => 12,
         ),
         'P' => 
@@ -206,6 +220,17 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'TusPhp\\' => 
         array (
             0 => __DIR__ . '/..' . '/ankitpokhrel/tus-php/src',
+        ),
+        'Thruway\\Transport\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thruway/pawl-transport/src',
+            1 => __DIR__ . '/..' . '/thruway/ratchet-transport/src',
+        ),
+        'Thruway\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/thruway/client/src',
+            1 => __DIR__ . '/..' . '/voryx/thruway/src',
+            2 => __DIR__ . '/..' . '/voryx/thruway-common/src',
         ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
@@ -399,9 +424,45 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         array (
             0 => __DIR__ . '/..' . '/sensio/framework-extra-bundle',
         ),
+        'React\\Stream\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/stream/src',
+        ),
+        'React\\Socket\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/socket/src',
+        ),
+        'React\\Promise\\Timer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise-timer/src',
+        ),
+        'React\\Promise\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/promise/src',
+        ),
         'React\\EventLoop\\' => 
         array (
             0 => __DIR__ . '/..' . '/react/event-loop/src',
+        ),
+        'React\\Dns\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/dns/src',
+        ),
+        'React\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/cache/src',
+        ),
+        'Ratchet\\RFC6455\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ratchet/rfc6455/src',
+        ),
+        'Ratchet\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ratchet/pawl/src',
+        ),
+        'Ratchet\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cboden/ratchet/src/Ratchet',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -681,6 +742,13 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
             array (
                 0 => __DIR__ . '/..' . '/jackalope/jackalope/src',
                 1 => __DIR__ . '/..' . '/jackalope/jackalope-doctrine-dbal/src',
+            ),
+        ),
+        'E' => 
+        array (
+            'Evenement' => 
+            array (
+                0 => __DIR__ . '/..' . '/evenement/evenement/src',
             ),
         ),
     );
