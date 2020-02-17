@@ -127,6 +127,7 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         ),
         'L' => 
         array (
+            'Lexik\\Bundle\\MaintenanceBundle\\' => 31,
             'League\\Flysystem\\' => 17,
         ),
         'J' => 
@@ -515,6 +516,10 @@ class ComposerStaticInit06b66d13d944633275f3978bd3f78d5d
         'Metadata\\' => 
         array (
             0 => __DIR__ . '/..' . '/jms/metadata/src',
+        ),
+        'Lexik\\Bundle\\MaintenanceBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lexik/maintenance-bundle',
         ),
         'League\\Flysystem\\' => 
         array (

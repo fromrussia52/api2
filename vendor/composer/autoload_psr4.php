@@ -83,6 +83,7 @@ return array(
     'Negotiation\\' => array($vendorDir . '/willdurand/negotiation/src/Negotiation'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
     'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
+    'Lexik\\Bundle\\MaintenanceBundle\\' => array($vendorDir . '/lexik/maintenance-bundle'),
     'League\\Flysystem\\' => array($vendorDir . '/league/flysystem/src'),
     'JMS\\Serializer\\' => array($vendorDir . '/jms/serializer/src'),
     'JMS\\SerializerBundle\\' => array($vendorDir . '/jms/serializer-bundle'),
